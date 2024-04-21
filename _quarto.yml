@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 4200
+website:
+  page-navigation: true
+  title: "Turma 2302"
+  site-url: "https://github.com/RamonnLeite/"
+  page-footer:
+    left: "Made with [Quarto](https://quarto.org/), by rmk. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+      # text: Suporte Técnico
+        href: https://github.com/RamonnLeite/
+      - icon: envelope
+       # text: Email
+        href: malito:ramon.leite2017@gmail.com
+  navbar:
+   left:
+      - text: Sobre a turma 2302    
+        href: sobre2302.qmd
+      - text: Gincana CSR
+        href: gincanacsr.qmd
+      - text: Rifa
+        href: rifa.qmd
+   right: 
+      - icon: instagram
+        href: https://instagram.com/furacaodoterceiro/
+      - icon: whatsapp
+        href: https://api.whatsapp.com/send/?phone=%2B5591992197584&text&type=phone_number&app_absent=0
+format:
+  html:
+    smooth-scroll: true
+    theme: journal
+    css: styles.css
+    toc: true
+
+editor: visual
+

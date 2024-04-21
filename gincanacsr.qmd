@@ -1,0 +1,33 @@
+---
+title: "Turma 2302"
+comments: false
+image: Gincana_vitoria.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:milaamodamaral@gmail.com
+    # - icon: file-pdf
+    #   text: Resume
+    #   href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/RamonnLeite/
+    - icon: whatsapp
+      text: whatsapp
+      href: https://chat.whatsapp.com/ILf3b37DHSjBldT5Pve5Fz
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/furacaodoterceiro/   
+---
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+::: {#hero-heading}
+"Insira texto [palavra para link](link)"
+:::
